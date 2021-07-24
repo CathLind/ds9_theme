@@ -1,0 +1,63 @@
+name: BiC Best in Class
+type: theme
+description: This is a bic sub theme of the Bartik theme
+core: 8.x
+# Defines the base theme
+base theme: bartik
+# Defines libraries group in which we can add css/js.
+libraries:
+  - bic/global-styling
+
+# Regions
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: 'Highlighted'
+  featured_white: 'Featured white'
+  featured_top: 'Featured top'
+  featured_white_2: 'Featured white 2'
+  featured_top_2: 'Featured top 2'
+  featured_white_3: 'Featured white 3'
+  featured_top_3: 'Featured top 3'
+  featured_white_4: 'Featured white 4'
+  featured_top_4: 'Featured top 4'
+  featured_white_5: 'Featured white 5'
+  featured_top_5: 'Featured top 5'
+  breadcrumb: 'Breadcrumb'
+  ftop_one: 'F-top One'
+  ftop_two: 'F-top Two'
+  ftop_three: 'F-top Three'
+  ftop_four: 'F-top Four'
+  ftop_five: 'F-top Five'
+  ftop_base: 'F-top Base'
+  half_one: 'Half one'
+  half_two: 'Half two'
+  half_base: 'Half Base'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+  
+libraries-override:
+  bartik/global-styling:
+    css:
+      theme:
+        css/colors.css: css/colors.css
+        css/components/site-branding.css: false
+        css/components/page-title.css: false 
+        css/components/field.css: false
+        css/components/page-title.css: false
+        
+libraries-extend:
+  tour/tour-styling:
+    - seven/tour-styling

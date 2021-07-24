@@ -1,0 +1,21 @@
+{
+  "name": "bic/bic",
+  "type": "drupal-custom-theme",
+  "license": "GPL-2.0-or-later",
+  "description": "The main theme for the TCM BiC site",
+  "homepage": "https://github.com/CathLind/bic_theme",
+  "authors": [
+    {
+      "name": "Catharina Lind (cathlind)",
+      "homepage": "https://github.com/CathLind",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/CathLind/bic_theme/issues",
+    "source": "https://github.com/CathLind/bic_theme"
+  },
+  "require": {
+    "drupal/core": "^8 || ^9"
+  }
+}

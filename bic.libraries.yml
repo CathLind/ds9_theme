@@ -1,0 +1,58 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      vendor/bootstrap/css/bootstrap-reboot.min.css: {}
+      vendor/bootstrap/css/bootstrap-utilities.min.css: {}
+      vendor/bootstrap/css/bootstrap.min.css: {}
+      vendor/font-awesome/css/font-awesome.min.css: {}
+      vendor/bootstrap/css/bootstrap-grid.min.css: {}
+      css/animate.min.css: {}
+      css/fonts.css: {}
+      css/components/site-branding.css: {}
+      css/components/taxonomy-term.css: {}
+      css/node-image-field-fix.css: {}
+      css/components/tour.theme.css: {}
+      css/components/page-title.css: {}
+      css/components/field.css: {}
+      css/components/main-content.css: {}
+      css/components/featured-top.css: {}
+      css/components/buttons.css: {}
+      css/components/table.css: {}
+      css/base/elements.css: {}
+      css/style.css: {}
+      css/blocks/call-to-action.css: {}
+      css/blocks/feature-box-accordion.css: {}
+      css/blocks/interactive.css: {}
+      css/components/editforms.css: {}
+      css/components/sidebar.css: {}
+      css/components/dropbutton.component.css: {}
+      css/components/primary-menu.css: {}
+      css/blocks/layout_blocks.css: {}
+      css/components/pagewrapper.css: {}
+      css/base/components.css: {}
+      css/base/regions.css: {}
+      css/blocks/projecthomepage.css: {}
+      css/base/pages.css: {}
+      css/base/paragraphs.css: {}
+      css/components/manuscript.css: {}
+            
+  js:
+    vendor/bootstrap/js/bootstrap.bundle.min.js: {}
+    vendor/bootstrap/js/bootstrap.esm.min.js: {}
+    vendor/bootstrap/js/bootstrap.min.js: {}
+    js/bic.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once     
+
+forum:
+  version: VERSION
+  css:
+    component:
+      css/components/forum.css: {}
+      
