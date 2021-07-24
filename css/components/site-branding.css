@@ -21,9 +21,10 @@
 
 
 .site-branding__logo {
-	padding-top: 280px;
+	padding-top: 120px;
 	max-width: 240px;
 	margin-right: 0px;
+	margin-left: 180px;
 }
 
 #block-bic-branding {
