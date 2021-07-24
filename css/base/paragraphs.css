@@ -1,0 +1,6 @@
+.paragraph--type--checklista-punkter .layout__region.layout__region--second {
+	background-color: #fff8ef;
+	background-image: linear-gradient(160deg,#fff 0,#fff0db 100%);
+	border: 2px solid orange;
+	padding: 15px;
+}

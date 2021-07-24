@@ -1,0 +1,341 @@
+/** Basic Groups **/
+#edit-group-course-outline,
+#edit-group-user-material,
+#edit-group-course,
+#edit-group-copyright-and-graphics,
+#edit-group-phase,
+#edit-group-task-information,
+#edit-group-connection-to-other,
+#edit-group-background-materials,
+#edit-group-facts,
+#edit-group-backgrou,
+#edit-group-connection-to-other-issue,
+#edit-group-issue-information,
+#edit-group-copyri,
+#edit-group-copyright-text,
+#edit-group-pdf-,
+#edit-group-project-information,
+#edit-group-background-material,
+#edit-group-project-date,
+#edit-group-paragraphs,
+#edit-group-text,
+#edit-group-punktlista,
+#edit-group-bilder,
+#edit-group-dokument-och-lankar,
+#edit-group-teaser,
+#edit-field-h5p-library-0-h5p-content,
+#edit-group-ovrig-information,
+#edit-group-information,
+#edit-group-fakta,
+#edit-group-image,
+#edit-group-licen,
+#edit-group-learner-information,
+#edit-group-course-documentation,
+#edit-group-course-des,
+#edit-group-licens-document {
+	background-color: #ffefdb;
+	padding: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: -2em;
+	background-image: linear-gradient(160deg,#fdfffc 60%,#3d6f00 100%);
+	border: 1px solid green;
+}
+
+#edit-field-wiki-filer-0-upload {
+	background-color: white;
+}
+
+legend {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 0;
+	font-size: 21px;
+	line-height: inherit;
+	color: #2e8100;
+	border: 0;
+	border-bottom: none;
+	text-transform: uppercase;
+	padding-top: 3em;
+}
+
+.node-form label, .node-form .description, .node-form .form-wrapper .label {
+	font-family: 'Open Sans';
+	padding-right: 4px;
+}
+
+input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, textarea.form-textarea {
+	color: #3b3b3b;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#edit-field-channel {
+	font-family: 'Open Sans';
+	padding: 3px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+
+
+
+.js-form-item.form-item.js-form-type-vertical-tabs.form-type-vertical-tabs.js-form-item-.form-item-.form-no-label {
+	background-color: #ffefdb;
+	padding: 1em;
+}
+
+.vertical-tabs__menu-item {
+	border: 1px solid #ffefdb;
+	border-top: 0;
+	background: #f8f8f8;
+}
+
+.label {
+	color: #000;
+}
+
+.label.js-form-required.form-required {
+	float: left;
+	line-height: 180%;
+}
+
+#edit-field-paragraphs-wrapper .label {
+	display: none;
+}
+
+label {
+	color: #2e8100;
+	padding-left: 5px;
+}
+
+
+.cke_top {
+	border-bottom: 1px solid #d1d1d1;
+	background: #ffc87d;
+}
+
+
+
+/** Paragraph modal  **/
+.ui-dialog {
+	border: solid 1px #ccc;
+	background: blanchedalmond;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #f90;
+	border-radius: 0;
+	background: #ffc874;
+	font-weight: bold;
+}
+
+.ui-dialog .button {
+	padding: 0.25em 1.063em;
+	cursor: pointer;
+	text-align: center;
+	color: #2e8100;
+	/* border: 1px solid #e4e4e4; */
+	border-right-color: #d2d2d2;
+	border-bottom-color: #b4b4b4;
+	border-left-color: #d2d2d2;
+	border-radius: 1em;
+	background-color: #ffc874;
+	background-image: -webkit-linear-gradient(top, #ffc874, #fcd79d);
+	background-image: linear-gradient(to bottom, #ffc874, #fcd79d) ;
+	font-size: 0.929em;
+	font-weight: bold;
+	font-family: 'Open Sans';
+}
+
+input.form-submit:hover, input.form-submit:focus {
+	background: #fabb5b;
+}
+
+
+
+.link.tabledrag-toggle-weight {
+	font-family: 'Open Sans';
+}
+
+.js .field--widget-paragraphs .tabledrag-handle .handle {
+	height: 22px;
+	width: 22px;
+}
+
+
+.paragraph-type-label {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #2e8100;
+}
+
+.paragraphs-dropdown-actions {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 36px;
+	z-index: 100;
+	background: #ffa83a;
+	border: 1px solid #a6a6a6;
+	border-radius: 5px 0 5px 5px;
+	-webkit-box-shadow: 0 2px 6px 0 #aaa;
+	box-shadow: 0 2px 6px 0 #aaa;
+}
+
+summary {
+	color: #2e8100;
+	background: orange;
+	text-shadow: none;
+}
+
+#edit-field-background-material-files {
+	background-color: white;
+}
+
+.view-media-entity-browser .views-row {
+	width: 98%;
+}
+
+.ui-dialog {
+	font-family: 'Open Sans';
+}
+
+#edit-field-tags-target-id--description,
+#edit-name--description,
+#edit-status--description {
+	padding-left: 8px;
+}
+
+#edit-submit-entity-browser {
+	float: right;
+	margin-top: -5em;
+}
+
+#edit-actions input {
+	margin-right: 2em;
+}
+
+
+.fieldset-wrapper {
+	padding: 1em;
+}
+
+.vertical-tabs__menu-item.first.last.is-selected {
+	background-color: #ffefdb;
+	border: none;
+}
+
+.vertical-tabs.clearfix {
+	border: none;
+}
+
+.vertical-tabs__menu {
+	border: none;
+}
+
+
+/* Removed text block from forms */
+
+.tips {
+	display: none;
+}
+
+#edit-group-project-date #edit-field-project-date-wrapper legend {
+	display: none;
+}
+
+
+/*Table handle */
+
+a.tabledrag-handle .handle {
+	width: 22px;
+	height: 22px;
+}
+
+.horizontal-tabs .horizontal-tab-button,
+.horizontal-tabs .horizontal-tabs-list {
+	background-color: #fff;
+	border-bottom: 1px solid orange;
+	font-size: 12px;
+}
+.horizontal-tab-button.selected {
+	background-color: orange;
+	border-bottom: 3px solid #9d690b;
+	margin-bottom: -1px;
+}
+
+.horizontal-tab-button.selected a {
+	color: white;
+}
+
+.filter-wrapper,
+.form-textarea-wrapper .cke_chrome,
+.horizontal-tabs {
+	border: 1px solid #ff8e00;
+}
+
+.form-textarea-wrapper .cke_top {
+	border-bottom: 1px solid #2e821c;
+	background: #b0d69a;
+}
+
+
+/* Manuscripts generator */
+
+.field-multiple-drag,
+.paragraphs-features__add-in-between__row td {
+	background-color: #3d6f00;
+}
+
+
+.draggable.paragraph-type--video.odd {
+	background-color: white;
+}
+
+tr.draggable.paragraph-type--video.even {
+	background-color: white;
+	background-image: none;
+}
+
+
+
+.js .field--widget-paragraphs td {
+	padding: 10px 0;
+	padding-left: 10px;
+}
+
+.paragraph-type--h5p-util-answer-options .field-multiple-drag,
+.paragraph-type--h5p-util-bransching-question .field-multiple-drag,
+.paragraph-type--h5p-util-document-export .field-multiple-drag,
+.paragraph-type--h5p-util-flashcard-item .field-multiple-drag,
+.paragraph-type--h5p-util-goal-assessment .field-multiple-drag,
+.paragraph-type--h5p-util-goals-page .field-multiple-drag,
+.paragraph-type--h5p-util-personality-name .field-multiple-drag,
+.paragraph-type--h5p-util-image-matchin .field-multiple-drag,
+.paragraph-type--h5p-util-keywords .field-multiple-drag,
+.paragraph-type--h5p-util-media-assets .field-multiple-drag,
+.paragraph-type--h5p-util-personality-answers .field-multiple-drag,
+.paragraph-type--h5p-util-personality-questions .field-multiple-drag,
+.paragraph-type--h5p-util-question-with-answers .field-multiple-drag,
+.paragraph-type--h5p-util-scene .field-multiple-drag,
+.paragraph-type--h5p-util-slide-item .field-multiple-drag,
+.paragraph-type--h5p-util-standard-page .field-multiple-drag,
+.paragraph-type--h5p-util-text-element .field-multiple-drag,
+.paragraph-type--h5p-util-text-input-field_elemen .field-multiple-drag,
+.paragraph-type--h5p-util-text-multiple .field-multiple-drag,
+.paragraph-type--h5p-util-timeline-era .field-multiple-drag,
+.paragraph-type--h5p-util-timeline-item-body .field-multiple-drag,
+.paragraph-type--h5p-util-video-item .field-multiple-drag,
+.paragraph-type--h5p-util-card .field-multiple-drag,
+.paragraph-type--h5p-util-branching-alternative .field-multiple-drag,
+.paragraph-type--h5p-util-image .field-multiple-drag,
+.paragraph-type--h5p-util-panels .field-multiple-drag,
+.paragraph-type--h5p-util-feedback .field-multiple-drag {
+	background-color: orange;
+}

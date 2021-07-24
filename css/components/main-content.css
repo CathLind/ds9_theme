@@ -1,0 +1,70 @@
+/** Article teaser **/
+
+
+article.teaser .left {
+  float: left;
+  margin-right: 20px;
+}
+
+article.teaser {
+  clear: both;
+}
+
+/** Graphics list in combined graphics */
+
+.block.block-layout-builder.block-field-blocknodecombined-graphicsfield-used-graphics {
+	background-color: #fff;
+	padding: 20px;
+	background-image: linear-gradient(160deg,#fffbf5 0,#fef0db 100%);
+	border: 2px solid orange;
+}
+
+.block-field-blocknodecombined-graphicsfield-used-graphics .node__title {
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.block-field-blocknodecombined-graphicsfield-used-graphics .layout__region.layout__region--second h2 {
+	font-size: 1em;
+}
+
+.block-field-blocknodecombined-graphicsfield-used-graphics .content {
+	font-size: 0.8em;
+	line-height: 1em;
+}
+
+.block-field-blocknodecombined-graphicsfield-used-graphics .layout__region.layout__region--third {
+	padding-left: 10px;
+	border-left: 1px solid orange;
+}
+
+
+.block-field-blocknodecombined-graphicsfield-used-graphics .layout__region.layout__region--second {
+	padding-right: 15px;
+}
+
+.block-field-blocknodegraphicsfield-copyright-owner p {
+	font-size: 0.8em;
+	line-height: 1.2em;
+}
+
+
+
+
+
+.node--view-mode-dependent-on .layout__region.layout__region--fourth, 
+.node--view-mode-dependent-on .layout__region.layout__region--second, 
+.node--view-mode-dependent-on .layout__region.layout__region--third {
+	border-left: 1px solid orange;
+	padding-left: 8px;
+	max-width: 24%;
+}
+
+.node--view-mode-dependent-on p {
+	font-size: 0.7em;
+}
+
+.node--view-mode-dependent-on .field__item {
+	font-size: 0.8em;
+}
+

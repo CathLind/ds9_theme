@@ -1,0 +1,55 @@
+/**
+ * @file
+ * Visual styles for BiC's featured top.
+ */
+
+.featured-top {
+	margin: 0;
+	padding: 20px 10px 45px;
+	text-align: center;
+	border-bottom: none;
+	background: #f0f0f0;
+	background: none;
+	text-shadow: none;
+	font-size: 1.2em;
+	font-weight: normal;
+	line-height: 1.4;
+	background-color: #ffdda0;
+}
+
+
+.featured-top h2 {
+  font-size: 2em;
+  line-height: 1;
+}
+.featured-top p {
+  margin: 0;
+  padding: 0;
+}
+
+
+.field-content.frontbutton {
+	display: block;
+	float: left;
+	clear: both;
+}
+
+
+/* Specific blocks */
+
+#block-usp2-3 .content,
+#block-usp3 .content,
+#block-usp2-2 .content,
+#block-usp2 .content,
+#block-bic-usp1-2 .content {
+	background-color: transparent;
+}
+
+
+.featured_white_2,
+.featured_white_3,
+.featured_white_4,
+.featured_white_5 {
+	padding-left: 4%;
+	padding-right: 4%;
+}

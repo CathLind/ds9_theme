@@ -1,0 +1,135 @@
+/* Featured Box */
+.featured-box {
+	background: #F5F5F5;
+	background: -webkit-linear-gradient( top , #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;
+	background: linear-gradient(to bottom, #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #DFDFDF;
+	border-left: 1px solid #ECECEC;
+	border-radius: 8px;
+	border-right: 1px solid #ECECEC;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04);
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	min-height: 100px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+
+.featured-box h4 {
+	font-size: 1.3em;
+	font-weight: 400;
+	letter-spacing: -0.7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.featured-box .box-content {
+	border-radius: 8px;
+	border-top-width: 4px;
+	padding: 30px 30px 10px 30px;
+	position: relative;
+	top: -1px;
+}
+
+.featured-box .learn-more {
+	display: block;
+	margin-top: 10px;
+}
+
+
+/* Featured Boxes */
+.featured-boxes .featured-box {
+	margin-bottom: 30px;
+	margin-top: 45px;
+}
+
+
+
+.feature-box .feature-box-icon {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background: #F7941E;
+	border-radius: 100%;
+	color: #FFF;
+	font-size: 16px;
+	font-size: 0.8em;
+	position: relative;
+	top: 7px;
+	text-align: center;
+	padding: 0.8em;
+	height: 1px;
+	min-width: 4em;
+	min-height: 4em;
+}
+
+.feature-box .feature-box-info {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 100%;
+	flex: 1 1 100%;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.feature-box.align-items-center .feature-box-icon {
+	top: 0;
+}
+.feature-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.feature-box-info {
+	text-align: left;
+}
+
+
+/** Accordion **/
+
+.panel-default {
+	border-color: #f7941e;
+}
+
+.panel {
+	background-color: #f7941e;
+}
+
+.panel-default > .panel-heading {
+	color: #fff;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.panel-title {
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+.panel-body {
+	text-align: left;
+	font-size: 0.8em;
+}
+
+.panel-title a:hover {
+	color: #4f2e07;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.panel-title a {
+    	text-decoration: none;
+	text-shadow: none;
+}

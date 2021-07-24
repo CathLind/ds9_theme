@@ -1,0 +1,105 @@
+/* Accordion */
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	font-size: 100%;
+	border-radius: 10px;
+	background-color: #ff9500;
+	border: none;
+}
+
+
+
+.block-views-blocktcm-interactions-block-11 .ui-accordion .ui-accordion-header {
+	min-height: 40px;
+	padding-top: 12px;
+}
+
+
+
+/** Images **/
+
+
+/** Images used in graphics and combines graphics **/
+.field--name-field-image-single img {
+	border: 1px solid #2e8100;
+	padding: 4px;
+	background-color: #96bd96;
+}
+
+/** Images used in binder and other multi image instances **/
+.field--name-field-bild img {
+	border: 1px solid black;
+	padding: 3px;
+	background: orange;
+}
+
+
+
+/** Belongs to box **/
+
+
+.field--name-field-belongs- .block-field-blocknodee-learning-projectfield-priority,
+.field--name-field-belongs- .block-field-blocknodee-learning-projectfield-project-status {
+	font-size: 0.8em;
+	line-height: 1.0;
+}
+
+.field--name-field-belongs- .block-field-blocknodee-learning-projecttitle {
+	font-size: 1.4em;
+}
+
+
+/** Comments block in pages **/
+
+.block-views-blocktcm-dashboard-research-block-3 .views-field.views-field-operations,
+.block-views-blocktcm-dashboard-research-block-4 .views-field.views-field-operations {
+	float: right;
+	max-width: 70%;
+}
+
+
+/** Workflow **/
+
+.block.block-views.block-views-blocktcm-project-dashbords-block-24 {
+	padding: 10px;
+	background-color: #ffeef1;
+	border: 3px dashed orange;
+}.block.block-views.block-views-blocktcm-project-dashbords-block-24 {
+	padding: 10px;
+	background-color: #ffeef1;
+	border: 3px dashed orange;
+	min-height: 9em;
+	padding-top: 0px;
+}
+
+.block.block-views.block-views-blocktcm-project-dashbords-block-24 .views-view-grid.horizontal.cols-1 {
+	width: 50%;
+	float: left;
+}
+
+.block.block-views.block-views-blocktcm-project-dashbords-block-24 #edit-actions {
+	float: left;
+	margin-top: -2px;
+}
+
+/** Interaction page **/
+
+#views-form-tcm-manuscript-page-3 .views-field.views-field-field-manuscript-generator {
+	max-width: 20%;
+	float: left;
+	padding-right: 10px;
+	border-right: 2px solid orange;
+}
+
+#edit-form-field-field-reate-interaction-0-field-reate-interaction-0-h5p-content {
+	padding-left: 10px;
+}
+
+/**Breadcrum menu  **/
+
+
+

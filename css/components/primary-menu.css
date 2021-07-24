@@ -1,0 +1,50 @@
+.region-primary-menu .menu a {
+	display: block;
+	float: none;
+	margin: 4px 0;
+	padding: 0.9em 0 0.9em 10px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 8px;
+	background: #ccc;
+	background: none;
+	text-shadow: none;
+	background-image: linear-gradient(#feba5c 20%, #ff6800 90%, #127b04 60% , #0e1558);
+	padding: 6px 15px 6px 15px;
+	font-weight: bolder;
+}
+
+
+#block-bic-main-menu .is-active {
+	display: block;
+	float: none;
+	margin: 4px 0;
+	padding: 0.9em 0 0.9em 10px;
+	text-decoration: none;
+	color: #06117e;
+	border-radius: 8px;
+	background: #ccc;
+	background: none;
+	text-shadow: none;
+	background-image: linear-gradient(#ff9300 20%, #ff6500 90%, #127b04 60% , #0e1558);
+	padding: 6px 15px 6px 15px;
+	font-weight: bolder;
+}
+
+.region-primary-menu .menu a:hover, .region-primary-menu .menu a:focus {
+	background: #f6f6f2;
+	background: rgb(255, 105, 0);
+}
+
+
+#block-interactionchanges-2 {
+	float: right;
+	margin-top: 90px;
+}
+
+#block-interactionchanges-2::before {
+	content: "Workflow:";
+	padding-left: 20px;
+	font-style: italic;
+	font-weight: bolder;
+}

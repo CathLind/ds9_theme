@@ -1,0 +1,69 @@
+/**
+ * @file
+ * Styles for BiC's buttons.
+ */
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #3dba04;
+  border-right-color: #d2d2d2;
+  border-bottom-color: #b4b4b4;
+  border-left-color: #d2d2d2;
+  border-radius: 1em;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(top,#e0771b 0,#9d3400 100%);
+  background-image: -o-linear-gradient(top,#e0771b 0,#9d3400 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#e0771b),to(#9d3400));
+  background-image: linear-gradient(to bottom,#5dff60 0,#0b2206 100%);
+  font-family: 'Open Sans';
+  font-size: 0.929em;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 5px;
+}
+
+.button a {
+  color: white;
+}
+
+.button.is-disabled:hover,
+.button.is-disabled:active,
+.button.is-disabled:focus,
+.button.is-disabled {
+  cursor: default;
+  color: #717171;
+  border-color: #bbb;
+  background: #ededed;
+}
+
+
+.button:hover, 
+.button:active, 
+.button:focus {
+	text-decoration: none;
+	color: #fff;
+	background: #195910;
+	background-image: linear-gradient(to bottom, #3f7327, #072703);
+}
+
+.form-submit {
+	color: white;
+}
+
+
+/** Buttons in specific blocks or pages **/
+
+#block-views-block-tcm-project-dashbords-block-1 .button {
+	margin-left: 0px;
+	min-width: 20em;
+	padding-top: 5px;
+	margin-top: 2px;
+	padding-bottom: 10px;
+	font-weight: bolder;
+}
+

@@ -1,0 +1,330 @@
+/* Hide all stupid messages */
+
+.region-status_messages {
+	display: none;
+}
+
+.alert-success {
+	display: none;
+}
+
+.message-wrapper {
+	display: none;
+}
+
+.messages.messages--status {
+	display: none;
+}
+
+/** Fixar problem i Edge */
+_:-ms-lang(x), _:-webkit-full-screen, #spanfour {
+    display: none;
+}
+
+
+_:-ms-lang(x), _:-webkit-full-screen, body {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px;
+}
+
+
+
+.breadcrumb {
+	padding: 8px 15px;
+	margin-bottom: 20px;
+	list-style: none;
+	background-color: white;
+	border-radius: 4px;
+}
+
+
+/* Checklist */
+
+.field--name-field-bullet-title,
+.field--name-field-bullet {
+	font-size: 1.4em;
+	font-weight: bolder;
+	font-family: 'Rambla';
+}
+
+.block-field-blocknodee-learning-projectfield-project-checklist .block.block-layout-builder.block-field-blocknodechecklistafield-checklista-punkter {
+	border-left: none;
+}
+
+
+/* Input rutor */
+
+button, input, select, textarea {
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-size: 14px;
+}
+
+/* Front page */
+
+#accordion .panel-heading {
+	border-radius: 50px;
+}
+
+
+/* Header */
+#header {
+	background-image: none;
+	background-color: white;
+}
+
+
+/* Main page */
+
+.main-content h2 {
+	margin-bottom: 2px;
+	font-size: 1.2em;
+	line-height: 1.4;
+	font-family: 'Rambla';
+	font-weight: 700;
+}
+
+.flow-image-front {
+	padding-top: 3em;
+}
+
+.layout__region.layout__region--first {
+	margin-left: 30px;
+}
+
+
+
+
+/* Accordion */
+
+.accordion-item {
+	background-color: orange;
+	margin-top: 3px;
+	border-radius: 20px;
+}
+
+.accordion-button.collapsed {
+	font-family: 'Rambla';
+	font-weight: 700;
+}
+
+#headingOnea,
+#headingTwoa,
+#headingThreea,
+#headingFoura,
+#headingFour,
+#headingThree,
+#headingTwo,
+#headingOne {
+	text-decoration: none;
+	height: 40px;
+}
+
+.accordion-button.collapsed {
+	border: none;
+	padding-top: 3px;
+}
+
+.accordion-item .accordion-button:not(.collapsed) {
+	background-color: orange;
+	border: none;
+	border-radius: 20px;
+	color: black;
+	font-family: 'Rambla';
+	font-weight: 700;
+	height: 40px;
+}
+
+.accordion-button:focus {
+	z-index: 3;
+	outline: 0;
+	box-shadow: 0 0 0 .25rem rgba(253, 148, 13, 0.25);
+}
+
+.accordion-body {
+	background-color: #fbe8c7;
+	border-radius: 0px 0px 20px 20px;
+	font-size: smaller;
+	padding-top: 55px;
+}
+
+.accordion-collapse {
+	border: 1px solid orange;
+	border-radius: 20px;
+}
+
+.accordion-item:last-of-type .accordion-collapse {
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+#block-bic-interactionchanges {
+	float: right;
+	padding-top: 140px;
+}
+
+#block-bic-interactionchanges-menu {
+	padding-left: 20px;
+	font-size: large;
+}
+
+.views-field.views-field-field-h5p-library {
+	padding: 8px;
+	border: 1px solid #b7b7b7;
+	margin: 5px;
+	min-height: 420px;
+}
+
+
+#block-banner4 {
+	width: 66%;
+	margin-top: -140px;
+	float: left;
+}
+
+/*Dashboard blocks*/
+
+.view-tch-dashboars-graphics .grid-column.views-col {
+	display: block;
+	height: 250px;
+	border: 1px solid #b8b8b8;
+	border-radius: 10px;
+	max-width: 30%;
+	margin: 5px;
+	box-shadow: 10px 10px 10px #e0e0e0;
+}
+
+.view-tch-dashboars-graphics .grid-row {
+	height: auto;
+}
+
+.view-id-tch_dashboars_graphics.view-display-id-block_2 .grid-column.views-col {
+	height: 200px;
+}
+
+.view-tch-dashboars-graphics .views-field.views-field-field-license-document,
+.view-tch-dashboars-graphics .views-field.views-field-field-license-restrictions {
+	font-size: 12px;
+}
+.fa.fa-id-card-o,
+.fa.fa-file {
+	color: red;
+}
+.fa.fa-check-square-o,
+.fa.fa-address-card {
+	color: green;
+}
+
+.view-tch-dashboars-graphics .views-field.views-field-title {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ff8f00;
+	padding-top: 10px;
+	text-decoration: underline;
+}
+
+.view-tch-dashboars-graphics .image-style-medium {
+	height: 120px;
+	width: auto;
+	overflow: hidden;
+}
+
+.view-tch-dashboars-graphics .views-field.views-field-title {
+	text-align: left;
+}
+
+.view-id-tch_dashboars_graphics.view-display-id-block_3 tr td,
+.view-id-tch_dashboars_graphics.view-display-id-block_3  tr th {
+	padding: 4px;
+	text-align: right;
+	border: none;
+}
+
+.block-views-blocktch-dashboars-graphics-block-3 .views-field-edit-node, 
+.block-views-blocktch-dashboars-graphics-block-4 .views-field-edit-node, 
+.block-views-blocktch-dashboars-graphics-block-5 .views-field-edit-node, 
+.block-views-blocktch-dashboars-graphics-block-6 .views-field-edit-node {
+	float: right;
+}
+
+.block-views-blocktch-dashboars-graphics-block-3 .views-field.views-field-field-image-single, 
+.block-views-blocktch-dashboars-graphics-block-4 .views-field.views-field-field-image-single, 
+.block-views-blocktch-dashboars-graphics-block-5 .views-field.views-field-field-image-single, 
+.block-views-blocktch-dashboars-graphics-block-6 .views-field.views-field-field-image-single {
+	width: 60%;
+	float: left;
+}
+
+.block-views-blocktch-dashboars-graphics-block-4 tr td,
+.block-views-blocktch-dashboars-graphics-block-5 tr td,
+.block-views-blocktch-dashboars-graphics-block-6 tr td,
+.block-views-blocktch-dashboars-graphics-latest-created tr td {
+	padding: 4px 9px;
+	text-align: left;
+	border: none;
+}
+
+
+.block-views-blocktch-dashboars-graphics-block-4 .views-field.views-field-field-image-single,
+.block-views-blocktch-dashboars-graphics-block-5 .views-field.views-field-field-image-single,
+.block-views-blocktch-dashboars-graphics-block-6 .views-field.views-field-field-image-single,
+.block-views-blocktch-dashboars-graphics-latest-created .views-field.views-field-field-image-single {
+	width: 90px;
+	vertical-align: middle;
+}
+
+
+.layout__region--second .views-field.views-field-title.views-field-edit-node {
+	text-align: left;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.dropbutton-multiple .dropbutton .dropbutton-action {
+	font-size: 14px;
+}
+
+.block-views-blocktch-dashboars-graphics-block-4 .views-field.views-field-title,
+.block-views-blocktch-dashboars-graphics-block-5 .views-field.views-field-title,
+.block-views-blocktch-dashboars-graphics-block-6 .views-field.views-field-title,
+.block-views-blocktch-dashboars-graphics-block-4 a,
+.block-views-blocktch-dashboars-graphics-block-5 a,
+.block-views-blocktch-dashboars-graphics-block-6 a,
+.block-views-blocktch-dashboars-graphics-latest-created .views-field.views-field-title,
+.block-views-blocktch-dashboars-graphics-latest-created a {
+	float: left;
+	text-decoration: none;
+	color: gray;
+}
+
+
+.sidebar-button a {
+	cursor: pointer;
+	text-align: center;
+	color: white;
+	border: 1px solid;
+	border-color: #96e968 #63d225 #235f02 #81d652;
+	border-radius: 1em;
+	background-color: #ffefdb;
+	background-image: -webkit-linear-gradient(top, #f3f3f3, #e8e8e8);
+	background-image: linear-gradient(to bottom, #68f41b, #296706);
+	width: 50px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.view-id-tcm_project_dashbords.view-display-id-block_22 tbody,
+.block-views-blocktcm-dashboard-projects-block-10 tbody,
+.block-views-blocktcm-dashboard-projects-block-1 tbody,
+.block-views-blocktcm-interactions-block-8 tbody,
+.block-views-blocktcm-interactions-block-9 tbody {
+	font-size: 12px;
+}
+
+tr {
+	font-size: 12px;
+}
+.layout-tabs a {
+	font-size: 12px;
+}

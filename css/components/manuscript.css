@@ -1,0 +1,115 @@
+/** CSS for the manuscript generator  **/
+
+
+.paragraph--type--h5pi-arithmetic-quiz .field__label,
+.field.field--name-field-h5p-dialogs .field__label,
+.field.field--name-field-h5p-bildbeskrivningar .field__label,
+.field.field--name-field-h5p-elements.field--type-entity-reference-revisions.field--label-above .field__label {
+	border-bottom: 1px solid orange;
+}
+
+.page-node-type-e-learning-interaktion #sidebar-first h2 {
+	Font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.field.field--name-type.field--type-entity-reference.field--label-inline .field__label {
+	border: none;
+}
+
+.field.field--name-type.field--type-entity-reference.field--label-inline .field__label,
+.typeinter {
+	text-transform: uppercase;
+	font-weight: 700;
+	float: left;
+	padding-right: 5px;
+}
+
+.page-node-type-e-learning-interaktion #sidebar-first .field__label {
+	padding-top: 10px;
+}
+
+.next_slide {
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 15px;
+	color: red;
+	font-size: 15px;
+    border-bottom: 1px solid #e9d8d8;
+    padding-bottom: 5px;
+}
+
+
+.paragraph--type--h5pi-dialog-card .block.block-layout-builder.block-inline-blockbasic,
+.paragraph--type--h5pi-aggamotto .block.block-layout-builder.block-inline-blockbasic,
+.block.block-layout-builder.block-field-blockparagraphh5pi-aggamottofield-h5p-bildbeskrivningar,
+.paragraph--type--h5p-util-panels .block.block-layout-builder.block-inline-blockbasic {
+	padding: 0;
+}
+
+.paragraph--type--h5pi-aggamotto hr,
+.paragraph--type--h5p-util-panels hr {
+	margin: 0;
+}
+
+
+
+.views-field-field-manuscript-generator .block.block-block-content,
+.views-field-field-manuscript-generator .block.block-layout-builder {
+	margin: 0;
+	padding: 0;
+}
+
+.field .field--name-type.field--type-entity-reference.field--label-inline .field__item {
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1.5;
+	float: left;
+	padding-left: 5px;
+	}
+
+
+/** Linebrakes and extra separators **/
+
+.field--name-field-h5p-answer-multiple .field__item::before,
+.field--name-field-h5p-text-multiple .field__item::before, 
+.field--name-field-h5p-feedback-found-spot .field__item::before,
+.field--name-field-h5p-feedback-multiple .field__item::before {
+	content: "New item: \A";
+	white-space: pre;
+	color: black;
+	font-size: 12px;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+/** Sticky left sidebar **/
+
+#views-form-tcm-manuscript-page-3 .views-field.views-field-field-manuscript-generator {
+	max-width: 20%;
+	float: left;
+	padding-right: 10px;
+	border-right: 2px solid orange;
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+
+.view-tcm-manuscript #edit-actions,
+.views-field.views-field-form-field-field-workflow,
+.view-tcm-manuscript .views-field.views-field-nothing-1 {
+	padding-left: 22%;
+}
+
+
+/** Remove taxonomy in termspages **/
+
+#views-form-tcm-manuscript-page-3 #edit-form-field-field-workflow-0-field-workflow--2 option[value="174"],
+#views-form-tcm-manuscript-page-1 #edit-form-field-field-workflow-0-field-workflow--2 option[value="172"],
+#views-form-tcm-manuscript-page-1 #edit-form-field-field-workflow-0-field-workflow--2 option[value="173"],
+#views-form-tcm-manuscript-page-1 #edit-form-field-field-workflow-0-field-workflow--2 option[value="174"],
+#views-form-tcm-manuscript-page-2 #edit-form-field-field-workflow-0-field-workflow--2 option[value="173"],
+#views-form-tcm-manuscript-page-2 #edit-form-field-field-workflow-0-field-workflow--2 option[value="174"] {
+	display: none;
+}

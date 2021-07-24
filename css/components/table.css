@@ -1,0 +1,404 @@
+/**
+ * @file
+ * Basic styles for BiC's tables.
+ */
+
+table {
+  width: 100%;
+  margin: 10px 0;
+  border-spacing: 0;
+  border: 0;
+  font-family: 'Open Sans';
+  font-size: 0.857em;
+}
+table table {
+  font-size: 1em;
+}
+tr {
+	padding: 0.1em 0.6em;
+	border-bottom: 1px solid #ccc;
+	background: white;
+	background-image: none;
+}
+thead > tr {
+  border-bottom: 1px solid #000;
+}
+
+/*
+tr.odd {
+	background: rgb(255, 207, 126);
+	background-image: linear-gradient(160deg,#f9fff5 40%,#d0dec7 100%);
+}*/
+
+tr.odd {
+	background: white;
+}
+
+
+table tr th {
+  border-bottom-style: none;
+  background: orange;
+}
+table tr th,
+table tr th a,
+table tr th a:hover,
+table tr th a:focus {
+  color: #fff;
+  font-weight: bold;
+}
+table tbody tr th {
+  vertical-align: top;
+}
+tr td,
+tr th {
+  padding: 4px 9px;
+  text-align: left; /* LTR */
+  border: 1px solid #b1b1b1;
+}
+.tabledrag-handle:hover,
+.tabledrag-handle {
+  border: none;
+}
+[dir="rtl"] tr td,
+[dir="rtl"] tr th {
+  text-align: right;
+}
+
+/**
+ * Responsive tables.
+ */
+@media screen and (max-width: 37.5em) { /* 600px */
+  th.priority-low,
+  td.priority-low,
+  th.priority-medium,
+  td.priority-medium {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 60em) { /* 920px */
+  th.priority-low,
+  td.priority-low {
+    display: none;
+  }
+}
+
+
+
+/** Basic table layout for different sizes **/
+
+.cols-2, .cols-3, .cols-4, .cols-5, .cols-6, .cols-7, .cols-8, .cols-9 {
+	table-layout: fixed;
+}	
+
+
+
+
+/** Operational links in table **/
+
+.cols-2 .views-field.views-field-operations,
+.cols-3 .views-field.views-field-operations,
+.cols-4 .views-field.views-field-operations {
+	width: 25%;
+}
+
+
+
+.cols-5 .views-field.views-field-operations,
+.cols-6 .views-field.views-field-operations {
+	width: 17%;
+}
+
+.cols-7 .views-field.views-field-operations,
+.cols-8 .views-field.views-field-operations,
+.cols-9 .views-field.views-field-operations {
+	width: 9%;
+}
+
+
+/** Title links in table **/
+
+.cols-2 .views-field.views-field-title,
+.cols-3 .views-field.views-field-title  {
+	width: 40%;
+}
+.cols-5 .views-field.views-field-title,
+.cols-4 .views-field.views-field-title {
+	width: 30%;
+}
+
+
+.cols-6 .views-field.views-field-title,
+.cols-7 .views-field.views-field-title {
+	width: 22%;
+}
+
+.cols-8 .views-field.views-field-title,
+.cols-9 .views-field.views-field-title {
+	width: 18%;
+}
+
+
+
+/** Date  links in table **/
+
+.cols-2 .views-field.views-field-field-project-date,
+.cols-3 .views-field.views-field-field-project-date,
+.cols-4 .views-field.views-field-field-project-date {
+	width: 25%;
+}
+
+.cols-5 .views-field.views-field-field-project-date,
+.cols-6 .views-field.views-field-field-project-date,
+.cols-7 .views-field.views-field-field-project-date {
+	width: 10%;
+}
+
+.cols-8 .views-field.views-field-field-project-date,
+.cols-9.views-field.views-field-field-project-date {
+	width: 10%;
+}
+
+
+/** Type links in table **/
+
+.cols-2 .views-field.views-field-field-issue-type,
+.cols-3 .views-field.views-field-field-issue-type,
+.cols-4 .views-field.views-field-field-issue-type {
+	width: 25%;
+}
+
+.cols-5 .views-field.views-field-field-issue-type,
+.cols-6 .views-field.views-field-field-issue-type,
+.cols-7 .views-field.views-field-field-issue-type {
+	width: 10%;
+}
+
+.cols-8 .views-field.views-field-field-issue-type,
+.cols-9 .views-field.views-field-field-issue-type {
+	width: 9%;
+}
+
+/** Status links in table **/
+
+.cols-2 .views-field.views-field-field-project-status,
+.cols-3 .views-field.views-field-field-project-status,
+.cols-4 .views-field.views-field-field-project-status {
+	width: 25%;
+}
+
+.cols-5 .views-field.views-field-field-project-status,
+.cols-6 .views-field.views-field-field-project-status,
+.cols-7 .views-field.views-field-field-project-status {
+	width: 10%;
+}
+
+.cols-8 .views-field.views-field-field-project-status,
+.cols-9 .views-field.views-field-field-project-status {
+	width: 9%;
+}
+
+/** Priority links in table **/
+
+.cols-2 .views-field.views-field-field-priority,
+.cols-3 .views-field.views-field-field-priority,
+.cols-4 .views-field.views-field-field-priority {
+	width: 25%;
+}
+
+.cols-5 .views-field.views-field-field-priority,
+.cols-7 .views-field.views-field-field-priority {
+	width: 10%;
+}
+
+.cols-8 .views-field.views-field-field-priority,
+.cols-9 .views-field.views-field-field-priority {
+	width: 10%;
+}
+
+/** Belongs to project links in table **/
+
+.cols-2 .views-field.views-field-field-belongs-,
+.cols-3 .views-field.views-field-field-belongs-,
+.cols-4 .views-field.views-field-field-belongs- {
+	width: 25%;
+}
+
+.cols-5 .views-field.views-field-field-belongs-,
+.cols-6 .views-field.views-field-field-belongs-,
+.cols-7 .views-field.views-field-field-belongs- {
+	width: 25%;
+}
+
+.cols-8 .views-field.views-field-field-belongs-,
+.cols-9 .views-field.views-field-field-belongs- {
+	width: 15%;
+}
+
+/** Moderation state field **/
+
+.cols-5 .views-field-moderation-state {
+	width: 15%;
+}
+.cols-4 .views-field-moderation-state {
+	width: 22%;
+}
+
+
+
+/** Dependent on links **/
+.cols-8 .views-field.views-field-field-dependent-on-a-task-or-iss,
+.cols-9 .views-field.views-field-field-dependent-on-a-task-or-iss {
+	width: 15%;
+}
+
+
+/** Settings for 6 columns table **/
+
+.cols-6 .views-field.views-field-field-priority,
+.cols-6 .views-field.views-field-field-project-status-1,
+.cols-6 .views-field.views-field-operations-1 {
+	width: 15%;
+}
+
+.cols-7 .views-field-field-weight-value {
+    width: 6%;
+}
+
+
+
+
+/** Individual table properties overriden **/
+#sidebar-first .cols-3 {
+	margin-left: -10%;
+	width: 120%;
+}
+
+
+td.is-active {
+	background-color: #ffcb83;
+}
+
+ul.tabs {
+	border: 1px solid blanchedalmond;
+	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0 0 2px rgb(255, 203, 131), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+	background-color: #ffe2be;
+	font-size: 1.1em;
+}
+
+.tabs a:focus, .tabs a:hover {
+	background-color: #feaf40;
+}
+
+.tabs a.is-active {
+	background-color: #fdcd88;
+}
+
+/** Interaction page **/
+
+
+.block-views-blocktcm-project-dashbords-block-19 tr {
+	background-color: white;
+}
+
+.block-views-blocktcm-project-dashbords-block-19 tr td {
+	border: none;
+	border-bottom: 1px solid #b1b1b1;
+}
+
+.block-views-blocktcm-project-dashbords-block-19 .views-field.views-field-title {
+	width: 15%;
+}
+
+/** Customized tables in Dashboards **/
+
+.block-views-blocktcm-project-dashbords-block-21 {
+	font-size: small;
+}
+
+/** Drop shaddow tables **/
+
+.views-table.views-view-table.cols-0,
+.views-table.views-view-table.cols-2,
+.views-table.views-view-table.cols-3,
+.views-table.views-view-table.cols-4,
+.views-table.views-view-table.cols-5,
+.views-table.views-view-table.cols-6,
+.views-table.views-view-table.cols-7,
+.views-table.views-view-table.cols-8,
+.views-table.views-view-table.cols-9 {
+	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0 0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+/** Grids **/
+.block-views-blocktch-dashboars-graphics-block-1 .views-field.views-field-title,
+.block-views-blocktch-dashboars-graphics-block-2 .views-field.views-field-title {
+	width: 100%;
+}
+
+.block-views-blocktch-dashboars-graphics-block-1 .views-field.views-field-operations,
+.block-views-blocktch-dashboars-graphics-block-2 .views-field.views-field-operations {
+	width: 80%;
+	padding-bottom: 5px;
+}
+
+.grid-row {
+	height: 350px;
+}
+
+
+.block-views-blocktch-dashboars-graphics-block-3 .grid-row,
+.block-views-blocktch-dashboars-graphics-block-4 .grid-row,
+.block-views-blocktch-dashboars-graphics-block-5 .grid-row,
+.block-views-blocktch-dashboars-graphics-block-6 .grid-row {
+	height: 75px;
+}
+
+
+.block-views-blocktch-dashboars-graphics-block-2 .grid-row {
+	height: 250px;
+}
+
+.grid-column {
+	padding: 0 15px;
+}
+
+.grid-fields {
+	font-size: smaller;
+	width: 95%;
+}
+
+
+.block-views-blocktch-dashboars-graphics-block-3 .views-field-title h4,
+.block-views-blocktch-dashboars-graphics-block-4 .views-field-title h4,
+.block-views-blocktch-dashboars-graphics-block-5 .views-field-title h4,
+.block-views-blocktch-dashboars-graphics-block-6 .views-field-title h4 {
+	font-size: 1.1em;
+}
+
+.block-views-blocktch-dashboars-graphics-block-3 .views-field-edit-node,
+.block-views-blocktch-dashboars-graphics-block-4 .views-field-edit-node,
+.block-views-blocktch-dashboars-graphics-block-5 .views-field-edit-node,
+.block-views-blocktch-dashboars-graphics-block-6 .views-field-edit-node {
+	float: right;
+}
+
+/** Research tables **/
+
+.block-views-blocktcm-dashboard-research-block-1 .views-field.views-field-title {
+	width: 60%;
+}
+
+.block-views-blocktcm-dashboard-research-block-1 .views-field.views-field-operations {
+	width: 10%;
+}
+
+.block-views-blocktcm-dashboard-research-block-1 .views-field.views-comment-count {
+	width: 8%;
+}
+
+.views-field.views-field-comment-count {
+	text-align: center;
+}
+
+

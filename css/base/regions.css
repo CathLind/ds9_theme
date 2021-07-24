@@ -1,0 +1,160 @@
+/** different regions in layoutbuilder
+.layout--onecol
+
+.layout--tabs
+
+.layout--twocol-section--50-50
+.layout--twocol-section--33-67
+.layout--twocol-section--67-33
+.layout--twocol-section--25-75
+.layout--twocol-section--75-25
+
+.layout--twocol-section--50-50 .layout__region--first
+.layout--twocol-section--33-67 .layout__region--first
+.layout--twocol-section--67-33 .layout__region--first
+.layout--twocol-section--25-75 .layout__region--first
+.layout--twocol-section--75-25 .layout__region--first
+
+.layout--twocol-section--50-50 .layout__region--second
+.layout--twocol-section--33-67 .layout__region--second
+.layout--twocol-section--67-33 .layout__region--second
+.layout--twocol-section--25-75 .layout__region--second
+.layout--twocol-section--75-25 .layout__region--second
+
+
+.layout--threecol-section--25-50-25
+.layout--threecol-section--33-34-33
+.layout--threecol-section--25-25-50
+.layout--threecol-section--50-25-25
+
+
+.layout--threecol-section--25-50-25 .layout__region--first
+.layout--threecol-section--33-34-33 .layout__region--first
+.layout--threecol-section--25-25-50 .layout__region--first
+.layout--threecol-section--50-25-25 .layout__region--first
+
+.layout--threecol-section--25-50-25 .layout__region--second
+.layout--threecol-section--33-34-33 .layout__region--second
+.layout--threecol-section--25-25-50 .layout__region--second
+.layout--threecol-section--50-25-25 .layout__region--second
+
+.layout--threecol-section--25-50-25 .layout__region--third
+.layout--threecol-section--33-34-33 .layout__region--third
+.layout--threecol-section--25-25-50 .layout__region--third
+.layout--threecol-section--50-25-25 .layout__region--third
+
+.layout--fourcol-section
+
+.layout--fourcol-section.layout__region--first
+
+.layout--fourcol-section.layout__region--second
+
+.layout--fourcol-section.layout__region--third
+
+.layout--fourcol-section.layout__region--fourth
+
+.layout__region--first
+.layout__region--second
+.layout__region--third
+.layout__region--fourth
+
+**/
+
+
+
+/* block regions */
+
+.ftop {
+	float: left;
+	width: 20%;
+	padding: 10px;
+}
+
+.half {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+#half_base,
+#ftop_base {
+	clear: both;
+}
+
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.block.block-layout-builder.block-inline-blockbasic {
+	clear: both;
+}
+
+
+/** vertical lines **/
+.layout--threecol-section--25-50-25 .layout__region--third,
+.layout--threecol-section--33-34-33 .layout__region--third,
+.layout__region.layout__region--second,
+.layout--threecol-section--25-25-50 .layout__region--third {
+    border-left: 1px solid orange;
+    padding-left: 15px;
+}
+
+
+.layout__region.layout__region--first {
+	padding-right: 30px;
+}
+
+.block-field-blocknodeproject-storylinefield-belongs- .layout__region--third {
+	border-left: none;
+}
+
+/** Lead times **/
+#views-form-tcm-project-dashbords-block-4-126 .views-view-grid.horizontal.cols-1.clearfix {
+	width: 50%;
+	float: left;
+}
+
+#edit-actions--6 {
+	padding-top: 2.5em;
+}
+
+/** tabs **/
+.tab-content {
+	border-radius: 0 0 4px 4px;
+	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0 0 2px rgb(255, 203, 131), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+	background-color: #FFF;
+	border: 1px solid #EEE;
+	border-top: 0;
+	padding: 15px;
+}
+.layout__region--tabs .label {
+	color: green;
+}
+
+
+/** regions top and half **/
+
+.region-ftop-one h2,
+.region-ftop-two h2,
+.region-ftop-three h2,
+.region-ftop-four h2,
+.region-ftop-five h2 {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	line-height: 1.1;
+}
+
+.view-tcm-interactions a {
+	color: black;
+}

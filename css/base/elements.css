@@ -1,0 +1,292 @@
+/** different regions in layoutbuilder
+.layout--onecol
+
+.layout--tabs
+
+.layout--twocol-section--50-50
+.layout--twocol-section--33-67
+.layout--twocol-section--67-33
+.layout--twocol-section--25-75
+.layout--twocol-section--75-25
+
+.layout--twocol-section--50-50 .layout__region--first
+.layout--twocol-section--33-67 .layout__region--first
+.layout--twocol-section--67-33 .layout__region--first
+.layout--twocol-section--25-75 .layout__region--first
+.layout--twocol-section--75-25 .layout__region--first
+
+.layout--twocol-section--50-50 .layout__region--second
+.layout--twocol-section--33-67 .layout__region--second
+.layout--twocol-section--67-33 .layout__region--second
+.layout--twocol-section--25-75 .layout__region--second
+.layout--twocol-section--75-25 .layout__region--second
+
+
+.layout--threecol-section--25-50-25
+.layout--threecol-section--33-34-33
+.layout--threecol-section--25-25-50
+.layout--threecol-section--50-25-25
+
+
+.layout--threecol-section--25-50-25 .layout__region--first
+.layout--threecol-section--33-34-33 .layout__region--first
+.layout--threecol-section--25-25-50 .layout__region--first
+.layout--threecol-section--50-25-25 .layout__region--first
+
+.layout--threecol-section--25-50-25 .layout__region--second
+.layout--threecol-section--33-34-33 .layout__region--second
+.layout--threecol-section--25-25-50 .layout__region--second
+.layout--threecol-section--50-25-25 .layout__region--second
+
+.layout--threecol-section--25-50-25 .layout__region--third
+.layout--threecol-section--33-34-33 .layout__region--third
+.layout--threecol-section--25-25-50 .layout__region--third
+.layout--threecol-section--50-25-25 .layout__region--third
+
+.layout--fourcol-section
+
+.layout--fourcol-section.layout__region--first
+
+.layout--fourcol-section.layout__region--second
+
+.layout--fourcol-section.layout__region--third
+
+.layout--fourcol-section.layout__region--fourth
+
+.layout__region--first
+.layout__region--second
+.layout__region--third
+.layout__region--fourth
+
+**/
+
+
+h1, h2, h4, h4, h5, h6 {
+  font-family: 'Rambla';
+  font-style: normal;
+  font-weight: 700;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+.main-content h2,
+h2 {
+	font-size: 2.0em;
+	color: #2e8100;
+	text-decoration: underline;
+	margin-bottom: 2px;
+	line-height: 1.8em;
+}
+
+body {
+	font-family: 'Open Sans';
+	line-height: 1.5em;
+}
+
+.title.page-title {
+	color: #2e8100;
+	margin-bottom: 1em;
+	text-align: right;
+	text-shadow: 1px 1px #979797;
+	font-weight: bolder;
+	line-height: 1.5em;
+}
+/** Two collumn layouts **/
+
+.layout--twocol-section--50-50 .field--name-title {
+	text-transform: none;
+	font-size: 0.6em;
+}
+
+.layout--twocol-section--50-50 .field--name-title a,
+.layout--twocol-section--50-50 h2.node__title {
+	text-decoration: none;
+}
+
+.layout--threecol-section--25-50-25 .layout__region--first .field__label,
+.layout--threecol-section--25-50-25 .layout__region--third .field__label,
+.layout--threecol-section--33-34-33 .layout__region--first h2,
+.layout--threecol-section--33-34-33 .layout__region--first .field__label,
+.layout--threecol-section--33-34-33 .layout__region--second h2,
+.layout--threecol-section--33-34-33 .layout__region--third h2,
+.layout--twocol-section--50-50 .layout__region--second .field__label,
+.layout--threecol-section--25-25-50 .layout__region--first h2,
+.layout--threecol-section--25-25-50 .layout__region--second h2, 
+.node--view-mode-checklist .layout__region.layout__region--third .field__label,
+.views-label-form-field-field-lead-time-hours-,
+.views-label-form-field-field-project-date,
+.views-field-form-field-field-project-status,
+.views-label-form-field-field-priority,
+.layout--twocol-section--75-25 .layout__region--second .field__label,
+.layout--twocol-section--67-33 .layout__region--second .field__label,
+.layout--twocol-section--25-75 .layout__region--first .field__label {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	line-height: 1.1;
+}
+
+/** Three collumn layouts **/
+
+
+
+/** Blockquotes **/
+
+blockquote::after {
+	content: "\201D";
+	vertical-align: -0.35em;
+	color: #2061216e;
+	font-size: 2.5em;
+	line-height: 0.1em;
+}
+
+blockquote::before {
+	margin-right: 0.2em;
+	content: "\201C";
+	vertical-align: -0.35em;
+	color: #2061216e;
+	font-size: 2.5em;
+	line-height: 0.1em;
+}
+
+blockquote {
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	border-left: none;
+	background: transparent;
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2em;
+	color: #ff7500;
+	float: left;
+    width: 50%;
+    line-height: 1.3em;
+}
+
+/** Rulers **/
+
+hr {
+	border-top: 3px solid #ffa11f;
+}
+
+
+/** Variants of H1 headings **/
+
+h1, .heading-a {
+	margin: 1em 0 0.5em;
+	font-size: 3.5em;
+	color: #fff;
+}
+
+/** Links **/
+
+a, a.link {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+
+a:focus, a:hover {
+	color: #e46725;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
+	text-decoration: none;
+	border-bottom-style: none;
+}
+
+a {
+	color: #e45e21;
+	text-decoration: none;
+}
+
+
+
+
+/** Variants of H2 headings **/
+
+.view-header h2 {
+	font-size: 1.2em;
+	color: #f16e00;
+	padding-top: 1.4em;
+}
+
+.layout--tabs h2,
+.layout--threecol-section--25-50-25 .layout__region--third h2,
+.layout--threecol-section--25-50-25 .layout__region--first h2,
+.layout--twocol-section--50-50 .layout__region--first h2,
+.layout--twocol-section--33-67 .layout__region--first h2,
+.layout--twocol-section--67-33 .layout__region--first h2,
+.layout--twocol-section--25-75 .layout__region--first h2,
+.layout--twocol-section--75-25 .layout__region--first h2,
+.layout--twocol-section--50-50 .layout__region--second h2,
+.layout--twocol-section--33-67 .layout__region--second h2,
+.layout--twocol-section--67-33 .layout__region--second h2,
+.layout--twocol-section--25-75 .layout__region--second h2,
+.layout--twocol-section--75-25 .layout__region--second h2 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.layout--threecol-section--25-25-50 .layout__region--first h2,
+.layout--threecol-section--25-25-50 .layout__region--second h2 {
+    color:#000;
+    text-decoration: none;
+}
+
+
+/** Comments forms **/
+.title.comment-form__title {
+	font-size: 1em;
+	color: black;
+	text-decoration: none;
+}
+
+
+/** Paddings **/
+
+.layout--threecol-section--33-34-33 .layout__region--first .layout--twocol-section.layout--twocol-section--33-67 {
+	padding-top: 15px;
+}
+
+/** Views header **/
+
+.view-header p {
+	font-size: smaller;
+	padding-top: 10px;
+}
+
+
+h5, .heading-e {
+	margin: 1em 0 0.5em;
+	letter-spacing: 0.07em;
+	/* text-transform: uppercase; */
+	font-size: 0.889em;
+	font-weight: inherit;
+}
+
+
+/* Changes to layout builder */
+.layout--twocol-section.layout--twocol-section--25-75 > .layout__region--first, .layout--twocol-section.layout--twocol-section--75-25 > .layout__region--second {
+	flex: 0 1 20%;
+}
+
+.layout--threecol-section--25-50-25 > .layout__region--second, .layout--threecol-section--25-25-50 > .layout__region--third, .layout--threecol-section--50-25-25 > .layout__region--first {
+	flex: 0 1 45%;
+}
+.layout--twocol-section.layout--twocol-section--33-67 > .layout__region--second, .layout--twocol-section.layout--twocol-section--67-33 > .layout__region--first {
+	flex: 0 1 63%;
+}
+
+.layout--twocol-section.layout--twocol-section--50-50 > .layout__region--first, .layout--twocol-section.layout--twocol-section--50-50 > .layout__region--second {
+	flex: 0 1 48%;
+	margin-left: 0px;
+}

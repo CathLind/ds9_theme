@@ -1,0 +1,11 @@
+#block-whatyoucandointhesystem {
+	padding-top: 5em;
+}
+
+#block-whatyoucandointhesystem h2 {
+	color: #6db03f;
+}
+
+.field.field--name-field-interactive-content.field--type-h5p.field--label-hidden.field__item {
+	padding-top: 3em;
+}
