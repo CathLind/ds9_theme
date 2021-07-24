@@ -52,3 +52,12 @@
 .region.region-primary-menu {
 	margin-top: 150px;
 }
+
+.region-primary-menu span {
+	float: left;
+	margin-top: -24px;
+	font-style: italic;
+	color: orange;
+	font-weight: bolder;
+	text-decoration-line: underline;
+}
