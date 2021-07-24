@@ -1,9 +1,9 @@
 {
-  "name": "bic/bic",
+  "name": "ds9_theme/ds9_theme",
   "type": "drupal-custom-theme",
   "license": "GPL-2.0-or-later",
-  "description": "The main theme for the TCM BiC site",
-  "homepage": "https://github.com/CathLind/bic_theme",
+  "description": "The main theme for the DS9 site",
+  "homepage": "https://github.com/CathLind/ds9_theme",
   "authors": [
     {
       "name": "Catharina Lind (cathlind)",
@@ -12,8 +12,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/CathLind/bic_theme/issues",
-    "source": "https://github.com/CathLind/bic_theme"
+    "issues": "https://github.com/CathLind/ds9_theme/issues",
+    "source": "https://github.com/CathLind/ds9_theme"
   },
   "require": {
     "drupal/core": "^8 || ^9"
