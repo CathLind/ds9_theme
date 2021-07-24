@@ -56,7 +56,6 @@ libraries-override:
         css/components/site-branding.css: false
         css/components/page-title.css: false 
         css/components/field.css: false
-        css/components/page-title.css: false
         
 libraries-extend:
   tour/tour-styling:
