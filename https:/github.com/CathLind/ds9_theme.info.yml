@@ -1,12 +1,12 @@
-name: BiC Best in Class
+name: DS9 Theme files
 type: theme
-description: This is a bic sub theme of the Bartik theme
-core: 8.x
+description: This is a DS9 sub theme of the Bartik theme
+core_version_requirement: ^9 | ^10
 # Defines the base theme
 base theme: bartik
 # Defines libraries group in which we can add css/js.
 libraries:
-  - bic/global-styling
+  - ds9_theme/global-styling
 
 # Regions
 regions:
