@@ -1,0 +1,64 @@
+{%
+set classes = [
+'block',
+'block-' ~ configuration.provider|clean_class,
+'block-' ~ plugin_id|clean_class,
+]
+
+%}
+<div{{ attributes.addClass(classes) }}>
+    {{ title_prefix }}
+    
+  
+    <div class="col-md-12">  
+<div class="container">
+<div class="row">
+    
+    
+ {#   {% if content.body | render  %} #}
+ {#       <div class="col-md-8"> #}
+ {#           {{ content.body }} #}
+ {#       </div> #}
+  {#      {% endif %} #}
+  
+  
+    <div class="col-md-8">
+        <div class="featured-box featured-box-primary">
+            <div class="box-content">
+                <h4 class="text-uppercase">{{ content.field_title | render | striptags | trim }}</h4>
+                <ul class="thumbnail-gallery" data-plugin-lightbox data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
+                    {{ content.field_image }}
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+<div class="col-md-4">
+<section class="call-to-action with-borders button-centered mb-xl">
+<div class="call-to-action-content">
+<h3>Herr Uggla innehåller <strong>aktiviteter</strong> för barn i åldern <strong>3-10 år</strong>!</h3>
+
+<p>Anpassad för <strong>padd</strong> mobil och pekskärm</p>
+</div>  </section>
+
+ {#   <div class="call-to-action-btn"><a class="btn btn-lg btn-primary" href="https://herruggla.se/butiken" target="_blank">Beställ nu!</a></div> #}
+
+<section class="text_block_info">
+
+    <h4 class="heading-primary"><span class="alternative-font">Herr Uggla rekommenderar padd</span></h4>
+
+    <div class="mr_owly_img_small"><img alt="herr uggla" src="/sites/default/f_blockimg/mrowly_080.jpg" /></div>
+    
+<p>Små barn bör inte använda datormus. Barnet har svårt att förstå kopplingen mellan handens rörelse och förändringen på skärmen. Det finns studier som visar att för tidigt användande av mus påverkar barnets motoriska utveckling. Pekskärm och padd ger samma naturliga rörelse som att hålla i en krita och lyfta en kloss.<br><br> Därav rekommenderar vi att du använder padd, mobil eller pekskärm till ditt barn.</p>
+
+</section>     
+
+  </div>   
+
+    
+</div>
+ 
+</div>
+
+</div>

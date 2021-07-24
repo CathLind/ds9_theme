@@ -1,0 +1,17 @@
+{% for key, item in items %}
+
+    {% set link = file_url(item.content['#paragraph'].field_bild.entity.uri.value) %}  
+<li class="appear-animation" data-appear-animation="fadeInUp">
+    <div class="thumb">
+        <img src="{{ link }}" alt="" >
+    </div>
+    <div class="featured-box">
+        <div class="box-content">
+            <h4 class="heading-primary"><strong>{{ item.content['#paragraph'].field_title.value }}</strong></h4>
+            <p>{{ item.content['#paragraph'].field_body.value | striptags }}</p>
+        </div>
+    </div>
+</li>
+
+{% endfor %}
+

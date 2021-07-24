@@ -1,0 +1,24 @@
+{%
+set classes = [
+'block',
+'block-' ~ configuration.provider|clean_class,
+'block-' ~ plugin_id|clean_class,
+]
+
+%}
+<div{{ attributes.addClass(classes) }}>
+    {{ title_prefix }}
+<section id="{{ content.field_key_features_id | render | striptags | trim }}" class="section background-color-light m-0">
+    <div class="container">
+        <div class="row text-center mb-3">
+            <div class="col-lg-12 m-auto">
+                {% if content.body %}
+					{{ content.body }}
+				{% endif %}
+            </div>
+        </div>
+        {{ content.field_feature_list }}
+    </div>
+</section>
+	{{ title_suffix }}
+</div>

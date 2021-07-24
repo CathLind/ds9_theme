@@ -1,0 +1,17 @@
+{% for item in items|batch(2,'No item') %}
+<div class="row">
+    {% for column in item %}
+    <div class="col-md-8 col-lg-6 m-auto">
+        <div class="feature-box feature-box-style-3 {{ column.content['#paragraph'].field_feature_reverse.value | raw }} custom-feature-box-style-1">
+            <div class="feature-box-icon-uggla">
+                <div class="{{ column.content['#paragraph'].field_feature_icon.value | raw }}"></div>
+            </div>
+            <div class="feature-box-info text-2">
+                <h4 class="text-color-dark pt-1"><span class="alternative-font">{{ column.content['#paragraph'].field_info_header.value | raw }}</span></h4>
+                <p class="mb-4">{{ column.content['#paragraph'].field_info_content.value | raw }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}
