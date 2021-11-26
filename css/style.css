@@ -328,3 +328,81 @@ tr {
 .layout-tabs a {
 	font-size: 12px;
 }
+
+/* Burndown */
+
+#board {
+	padding-top: 3em;
+}
+
+#user_list {
+	float: left;
+	display: flex;
+	width: 60%;
+	max-width: 60%;
+}
+
+#user_list h4 {
+	line-height: 24px;
+	margin: 0;
+	width: 35%;
+}
+
+.assigned_to.user_circle.circle {
+	max-width: 50px;
+}
+
+.reset.button {
+	max-width: 20%;
+}
+
+.burndown_task .priority {
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+
+.burndown_task .ticket_id {
+	width: 15%;
+}
+
+.burndown_task .ticket_title {
+	width: 40%;
+}
+
+.estimate.estimate-type-tshirt.circle {
+	width: 30px;
+	height: 30px;
+}
+
+.burndown_task .action_link {
+	width: 50px;
+}
+
+.swimlane .action_link {
+	width: 16px;
+}
+
+.swimlane .ticket_title.row {
+	width: 100%;
+}
+
+#user_list div.assigned_to.active {
+	border: 1px solid black;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	background-color: orange;
+}
+
+#board .action_link {
+	float: right;
+	margin: 0.1em 0.1em 0 0;
+}
+
+#board .ticket_id {
+	flex-grow: 4;
+	text-align: right;
+	margin-right: 0.2em;
+	font-size: 10px;
+}
