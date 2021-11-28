@@ -363,11 +363,31 @@ tr {
 }
 
 .burndown_task .ticket_id {
-	width: 15%;
+	width: 12%;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 .burndown_task .ticket_title {
-	width: 40%;
+	width: 30%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#backlog .tags {
+	width: 25%;
+	float: right;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 30px;
+}
+
+#backlog .assigned_to.user_circle.circle {
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 24px;
 }
 
 .estimate.estimate-type-tshirt.circle {
@@ -375,8 +395,15 @@ tr {
 	height: 30px;
 }
 
-.burndown_task .action_link {
-	width: 50px;
+#backlog .burndown_task .action_link {
+	width: 25px;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-right: 0;
+}
+
+.swimlane .tags {
+	height: 28px;
 }
 
 .swimlane .action_link {
@@ -405,4 +432,11 @@ tr {
 	text-align: right;
 	margin-right: 0.2em;
 	font-size: 10px;
+}
+
+/* Etikett färger */
+
+.letter-B, .letter-2 {
+	background-color: #f00;
+	color: white;
 }
